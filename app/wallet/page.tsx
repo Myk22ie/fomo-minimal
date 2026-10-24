@@ -49,7 +49,6 @@ const tone = (n: number | null) => (n == null || n === 0 ? "" : n > 0 ? "pos" : 
 
 const DEPTHS = [
   { value: 100, label: "Last 100 txs (fast)" },
-  { value: 250, label: "Last 250 txs" },
 ];
 
 export default function WalletPage() {
